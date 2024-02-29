@@ -11,8 +11,7 @@ function Profile() {
   {
     return (
       <section>
-        <h1>Amazing scientists</h1>
-        <Profile />
+        <h2>Amazing scientists</h2>
         <Profile />
         <Profile />
         <Profile />
