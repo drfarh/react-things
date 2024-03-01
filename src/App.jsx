@@ -2,6 +2,7 @@
 import './App.css'
 import Bio from './Bio'
 import Gallery from './Gallery'
+import TodoList from './TodoList'
 
 function App() {
 
@@ -19,6 +20,11 @@ function App() {
       <Bio />
     </div>
 
+    {/* Branch-4 */}
+    <div>
+      <h1>Branch 4 JavaScript in JSX with curly braces </h1>
+      <TodoList />
+    </div>
            
     </>
   )
