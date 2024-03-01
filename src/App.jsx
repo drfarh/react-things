@@ -1,5 +1,6 @@
 
 import './App.css'
+import Avatar from './Avatar'
 import Bio from './Bio'
 import Gallery from './Gallery'
 import TodoList from './TodoList'
@@ -24,6 +25,15 @@ function App() {
     <div>
       <h1>Branch 4 JavaScript in JSX with curly braces </h1>
       <TodoList />
+    </div>
+
+    {/* Branch-5 */}
+    <div>
+      <h1>Branch 5 Passing props to a component </h1>
+      <Avatar size={300} person={{
+          name: 'Katsuko Saruhashi',
+          imageId: 'YfeOqp2'
+        }}/>
     </div>
            
     </>
