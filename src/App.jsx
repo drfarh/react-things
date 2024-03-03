@@ -11,6 +11,7 @@ import TodoList from './TodoList'
 import FancyText from './FancyText';
 import InspirationGenerator from './InspirationGenerator';
 import Copyright from './Copyright';
+import Toolbar from './Toolbar'
 
 function App() {
 
@@ -67,6 +68,16 @@ function App() {
       <InspirationGenerator>
         <Copyright year={2004} />
       </InspirationGenerator>
+</div>
+
+{/* Branch 10 */}
+
+<div>
+  <h1>Branch 10 Responding to Events</h1>
+  <Toolbar
+      onPlayMovie={() => alert('Playing!')}
+      onUploadImage={() => alert('Uploading!')}
+    />
 </div>
 
            
