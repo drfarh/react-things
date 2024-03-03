@@ -13,6 +13,7 @@ import InspirationGenerator from './InspirationGenerator';
 import Copyright from './Copyright';
 import Toolbar from './Toolbar'
 
+
 function App() {
 
   return (
@@ -78,9 +79,13 @@ function App() {
       onPlayMovie={() => alert('Playing!')}
       onUploadImage={() => alert('Uploading!')}
     />
-</div>
+</div>      
 
-           
+{/* Branch 11 */}
+<div>
+  <h1>Branch 11 State: A Component’s Memory</h1>
+  <Gallery />
+</div>
     </>
   )
 }
