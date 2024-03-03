@@ -5,6 +5,7 @@ import Bio from './Bio'
 import Gallery from './Gallery'
 import List from './List'
 import PackingList from './PackingList'
+import TeaSet from './TeaSet'
 import TodoList from './TodoList'
 
 function App() {
@@ -42,12 +43,19 @@ function App() {
     <h1>Branch 6 Conditional Rendering </h1>
       <PackingList />
     </div>
+
     {/* Branch-7 */}
-    <div>
+  <div>
     <h1>Branch 7 Rendering Lists </h1>
     <List />
+ </div>
 
-    </div>
+  {/* Branch 8 */}
+  <div>
+  <h1>Branch 8  Keeping Components Pure </h1>
+  <TeaSet />
+  </div>
+
            
     </>
   )
