@@ -17,6 +17,7 @@ import Gallery2 from './Gallery2'
 import Counter from './Counter'
 import Counter1 from './Counter1'
 import MovingDot from './MovingDot'
+import List1 from './List1'
 
 
 
@@ -118,6 +119,12 @@ function App() {
 <div>
   <h1>Branch 15 Updating Objects in State</h1>
   <MovingDot />
+</div>
+
+{/* Branch 16 Updating Arrays in State*/}
+<div>
+  <h1>Branch 16 Updating Arrays in State</h1>
+  <List1 />
 </div>
     </>
   )
