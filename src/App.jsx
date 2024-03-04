@@ -13,11 +13,14 @@ import InspirationGenerator from './InspirationGenerator';
 import Copyright from './Copyright';
 import Toolbar from './Toolbar'
 
+import Gallery2 from './Gallery2'
+
+
 
 function App() {
 
-  return (
-    <>
+  return ( 
+    <> 
     {/* Branch-2 */}
     <div>
       <h1>Branch 2 Importing - Exporting Components</h1>
@@ -86,6 +89,16 @@ function App() {
   <h1>Branch 11 State: A Component’s Memory</h1>
   <Gallery />
 </div>
+
+
+{/* Branch 12 */}
+<div>
+ <h1>Branch 12 Render and Commit</h1>
+<Gallery2 />
+
+</div>
+
+
     </>
   )
 }
