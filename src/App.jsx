@@ -16,6 +16,7 @@ import Toolbar from './Toolbar'
 import Gallery2 from './Gallery2'
 import Counter from './Counter'
 import Counter1 from './Counter1'
+import MovingDot from './MovingDot'
 
 
 
@@ -111,10 +112,13 @@ function App() {
 <div>
   <h1>Branch 14 Queueing a Series of State Updates</h1>
   <Counter1 />
-
 </div>
 
-
+{/* Branch 15 Updating Objects in State*/}
+<div>
+  <h1>Branch 15 Updating Objects in State</h1>
+  <MovingDot />
+</div>
     </>
   )
 }
