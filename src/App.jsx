@@ -3,6 +3,7 @@ import './App.css'
 import Avatar from './Avatar'
 import Bio from './Bio'
 import Gallery from './Gallery'
+import List from './List'
 import PackingList from './PackingList'
 import TodoList from './TodoList'
 
@@ -40,6 +41,12 @@ function App() {
     <div>
     <h1>Branch 6 Conditional Rendering </h1>
       <PackingList />
+    </div>
+    {/* Branch-7 */}
+    <div>
+    <h1>Branch 7 Rendering Lists </h1>
+    <List />
+
     </div>
            
     </>
