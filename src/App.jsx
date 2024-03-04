@@ -8,6 +8,10 @@ import PackingList from './PackingList'
 import TeaSet from './TeaSet'
 import TodoList from './TodoList'
 
+import FancyText from './FancyText';
+import InspirationGenerator from './InspirationGenerator';
+import Copyright from './Copyright';
+
 function App() {
 
   return (
@@ -51,10 +55,19 @@ function App() {
  </div>
 
   {/* Branch 8 */}
-  <div>
+<div>
   <h1>Branch 8  Keeping Components Pure </h1>
   <TeaSet />
-  </div>
+</div>
+
+  {/* Branch 9 */}
+<div>
+  <h1>Branch 9 Your UI as a Tree</h1>
+  <FancyText title text="Get Inspired App" />
+      <InspirationGenerator>
+        <Copyright year={2004} />
+      </InspirationGenerator>
+</div>
 
            
     </>
