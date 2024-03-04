@@ -14,6 +14,8 @@ import Copyright from './Copyright';
 import Toolbar from './Toolbar'
 
 import Gallery2 from './Gallery2'
+import Counter from './Counter'
+import Counter1 from './Counter1'
 
 
 
@@ -94,7 +96,21 @@ function App() {
 {/* Branch 12 */}
 <div>
  <h1>Branch 12 Render and Commit</h1>
-<Gallery2 />
+ <Gallery2 />
+</div>
+
+{/* Branch 13 */}
+
+<div>
+<h1>Branch 13 State as a Snapshot</h1>
+<Counter />
+</div>
+
+ {/* Branch 14 Queueing a Series of State Updates */}
+
+<div>
+  <h1>Branch 14 Queueing a Series of State Updates</h1>
+  <Counter1 />
 
 </div>
 
