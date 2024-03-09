@@ -3,6 +3,9 @@ import './App.css'
 import Avatar from './Avatar'
 import Bio from './Bio'
 import Gallery from './Gallery'
+import Gallery05 from './Gallery05'
+import Profile05 from './Profile05'
+import Profile05Chl3 from './Profile05Chl3'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
 import TodoListChl3 from './TodoListChl3'
@@ -37,10 +40,12 @@ function App() {
     {/* Branch-5 */}
     <div>
       <h1>Branch 5 Passing props to a component </h1>
-      <Avatar size={300} person={{
-          name: 'Katsuko Saruhashi',
-          imageId: 'YfeOqp2'
-        }}/>
+      <h2>Challange 1: Extract a component</h2>
+      <Gallery05 />
+      <h2>Challange 2: Adjust the image size based on a prop</h2>
+      <Profile05 />
+      <h2>challange 3: Passing JSX in a children prop </h2>
+      <Profile05Chl3 />
     </div>
            
     </>
