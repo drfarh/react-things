@@ -2,8 +2,11 @@
 import './App.css'
 import Avatar from './Avatar'
 import Bio from './Bio'
+import DrinkListChl3 from './DrinkListChl3'
 import Gallery from './Gallery'
 import Gallery05 from './Gallery05'
+import PackingList from './PackingList'
+import PackingListChl2 from './PackingListChl2'
 import Profile05 from './Profile05'
 import Profile05Chl3 from './Profile05Chl3'
 import TodoList from './TodoList'
@@ -46,6 +49,18 @@ function App() {
       <Profile05 />
       <h2>challange 3: Passing JSX in a children prop </h2>
       <Profile05Chl3 />
+    </div>
+
+    {/* Branch 6 */}
+    <div>
+      <h1>Branch 6: Conditional Rendering</h1>
+      <h2>Challenge 1: Show an icon for incomplete items with ? :</h2>
+      <PackingList />
+      <h2>Challenge 2: Show an icon for incomplete items with &&</h2>
+      <PackingListChl2 />
+      <h2>Challenge 3 of 3: Refactor a series of ? : to if and variables </h2>
+      <DrinkListChl3 />
+
     </div>
            
     </>
