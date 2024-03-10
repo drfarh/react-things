@@ -5,10 +5,14 @@ import Bio from './Bio'
 import DrinkListChl3 from './DrinkListChl3'
 import Gallery from './Gallery'
 import Gallery05 from './Gallery05'
+import ListChl1 from './ListChl1'
 import PackingList from './PackingList'
 import PackingListChl2 from './PackingListChl2'
+import Poem from './Poem'
 import Profile05 from './Profile05'
 import Profile05Chl3 from './Profile05Chl3'
+import RecipeListCh2 from './RecipeListCh2'
+import RecipeListCh3 from './RecipeListCh3'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
 import TodoListChl3 from './TodoListChl3'
@@ -60,7 +64,19 @@ function App() {
       <PackingListChl2 />
       <h2>Challenge 3 of 3: Refactor a series of ? : to if and variables </h2>
       <DrinkListChl3 />
+    </div>
 
+    {/* Branch 7 */}
+    <div>
+      <h1>Branch 7:  Rendering Lists </h1>
+      <h2>Challenge 1: Splitting a list in two</h2>
+      <ListChl1 />
+      <h2>Challenge 2 : Nested lists in one component </h2>
+      <RecipeListCh2 />
+      <h2>Challenge 3 : Extracting a list item component</h2>
+      <RecipeListCh3 />
+      <h2>Challenge 4 : List with a separator</h2>
+      <Poem />
     </div>
            
     </>
