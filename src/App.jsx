@@ -2,6 +2,7 @@
 import './App.css'
 import Avatar from './Avatar'
 import Bio from './Bio'
+import Clock from './Clock'
 import DrinkListChl3 from './DrinkListChl3'
 import Gallery from './Gallery'
 import Gallery05 from './Gallery05'
@@ -11,8 +12,10 @@ import PackingListChl2 from './PackingListChl2'
 import Poem from './Poem'
 import Profile05 from './Profile05'
 import Profile05Chl3 from './Profile05Chl3'
+import ProfileCh2 from './ProfileCh2'
 import RecipeListCh2 from './RecipeListCh2'
 import RecipeListCh3 from './RecipeListCh3'
+import Story from './Story'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
 import TodoListChl3 from './TodoListChl3'
@@ -77,6 +80,26 @@ function App() {
       <RecipeListCh3 />
       <h2>Challenge 4 : List with a separator</h2>
       <Poem />
+    </div>
+
+    {/* Branch 8 */}
+    <div>
+      <h1>Branch 8: Keeping Components Pure</h1>
+      <h2>Challenge 1:Fix a broken clock </h2>
+      <Clock />
+
+      <h2>Challenge 2: Fix a broken profile</h2>
+      <ProfileCh2 person={{
+        imageId: 'lrWQx8l',
+        name: 'Subrahmanyan Chandrasekhar',
+      }} />
+      <ProfileCh2 person={{
+        imageId: 'MK3eW3A',
+        name: 'Creola Katherine Johnson',
+      }} />
+      
+      <h2>Challenge 3: Fix a broken story tray </h2>
+      <Story />
     </div>
            
     </>
