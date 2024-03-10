@@ -98,7 +98,7 @@ function App() {
         name: 'Creola Katherine Johnson',
       }} />
       
-      <h2>Challenge 3: Fix a broken story tray </h2>
+      <h2>Challenge 3: Fix a broken story tray. </h2>
       <Story />
     </div>
            
