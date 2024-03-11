@@ -19,6 +19,7 @@ import Story from './Story'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
 import TodoListChl3 from './TodoListChl3'
+import Tree from './Tree'
 
 function App() {
 
@@ -101,6 +102,13 @@ function App() {
       <h2>Challenge 3: Fix a broken story tray. </h2>
       <Story />
     </div>
+
+    {/* Branch 9 */}
+    <div>
+      <h1>Branch 9: Your UI as a Tree </h1>
+      <Tree />
+    </div>
+
            
     </>
   )
