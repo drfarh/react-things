@@ -2,6 +2,7 @@
 import './App.css'
 import Avatar from './Avatar'
 import Bio from './Bio'
+import Canvas from './Canvas'
 import Clock from './Clock'
 import ColorApp from './ColorApp'
 import DrinkListChl3 from './DrinkListChl3'
@@ -25,6 +26,7 @@ import QueApp from './QueApp'
 import RecipeListCh2 from './RecipeListCh2'
 import RecipeListCh3 from './RecipeListCh3'
 import RequestTracker from './RequestTracker'
+import Scoreboard from './Scoreboard'
 import Story from './Story'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
@@ -171,6 +173,19 @@ function App() {
 
       <h2>Challenge 2: Implement the state queue yourself </h2>
       <QueApp />
+    </div>
+
+    {/* Branch 15 */}
+    <div>
+      <h1>Branch 15: Updating Objects in State </h1>
+      <h2>Challenge 1: Fix incorrect state updates </h2>
+      <Scoreboard />
+
+      <h2>Challenge 2: Find and fix the mutation </h2>
+      <Canvas /> <br/><br/><br/><br/><br/><br/><br/><br/>
+
+      <h2>Challenge 3: Update an object with Immer </h2>
+      <Canvas />
     </div>
 
 
