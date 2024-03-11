@@ -21,8 +21,10 @@ import Poem from './Poem'
 import Profile05 from './Profile05'
 import Profile05Chl3 from './Profile05Chl3'
 import ProfileCh2 from './ProfileCh2'
+import QueApp from './QueApp'
 import RecipeListCh2 from './RecipeListCh2'
 import RecipeListCh3 from './RecipeListCh3'
+import RequestTracker from './RequestTracker'
 import Story from './Story'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
@@ -159,6 +161,16 @@ function App() {
       <h1>Branch 13: State as a Snapshot </h1>
       <h2>Challenge 1: Implement a traffic light component</h2>
       <TrafficLight />
+    </div>
+
+    {/* Branch 14 */}
+    <div>
+      <h1>Branch 14: Queueing a Series of State Updates </h1>
+      <h2>Challenge 1: Fix a request counter </h2>
+      <RequestTracker />
+
+      <h2>Challenge 2: Implement the state queue yourself </h2>
+      <QueApp />
     </div>
 
 
