@@ -27,7 +27,10 @@ import RecipeListCh2 from './RecipeListCh2'
 import RecipeListCh3 from './RecipeListCh3'
 import RequestTracker from './RequestTracker'
 import Scoreboard from './Scoreboard'
+import ShoppingCart from './ShoppingCart'
+import ShoppingCartCh2 from './ShoppingCartCh2'
 import Story from './Story'
+import TaskApp from './TaskApp'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
 import TodoListChl3 from './TodoListChl3'
@@ -185,8 +188,25 @@ function App() {
       <Canvas /> <br/><br/><br/><br/><br/><br/><br/><br/>
 
       <h2>Challenge 3: Update an object with Immer </h2>
-      <Canvas />
+      <Canvas /> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
+
+    {/* Branch 16 */}
+    <div>
+      <h1>Branch 16: Updating Arrays in State</h1>
+      <h2>Challenge 1: Update an item in the shopping cart </h2>
+      <ShoppingCart /> <br/><br/>
+
+      <h2>Challenge 2: Remove an item from the shopping cart </h2>
+      <ShoppingCartCh2 />
+
+      <h2>Challenge 3: Fix the mutations using non-mutative methods </h2>
+      <TaskApp />
+
+      <h2>Challenge 4: Fix the mutations using Immer </h2>
+      <TaskApp  />
+    </div>
+    
 
 
            
