@@ -27,6 +27,7 @@ import Story from './Story'
 import TodoList from './TodoList'
 import TodoListChl2 from './TodoListChl2'
 import TodoListChl3 from './TodoListChl3'
+import TrafficLight from './TrafficLight'
 import Tree from './Tree'
 
 function App() {
@@ -152,6 +153,14 @@ function App() {
       <h2>Step 2: React renders your components</h2>
       <Gallery12 />
     </div>
+
+    {/* Branch 13 */}
+    <div>
+      <h1>Branch 13: State as a Snapshot </h1>
+      <h2>Challenge 1: Implement a traffic light component</h2>
+      <TrafficLight />
+    </div>
+
 
            
     </>
