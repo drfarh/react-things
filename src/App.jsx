@@ -11,6 +11,8 @@ import Form from './Form'
 import Gallery from './Gallery'
 import Gallery05 from './Gallery05'
 import Gallery11 from './Gallery11'
+import Gallery12 from './Gallery12'
+import Image from './Image'
 import LightSwitch from './LightSwitch'
 import ListChl1 from './ListChl1'
 import PackingList from './PackingList'
@@ -139,6 +141,16 @@ function App() {
 
       <h2>Challenge 4: Remove unnecessary state </h2>
       <FeedbackFormCh4 />
+    </div>
+
+    {/* Branch 12 */}
+    <div>
+      <h1>Branch 12: Render and Commit </h1>
+      <h2>Step 1: Trigger a render </h2>
+      <Image />
+      
+      <h2>Step 2: React renders your components</h2>
+      <Gallery12 />
     </div>
 
            
