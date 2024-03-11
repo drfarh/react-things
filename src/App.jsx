@@ -3,9 +3,11 @@ import './App.css'
 import Avatar from './Avatar'
 import Bio from './Bio'
 import Clock from './Clock'
+import ColorApp from './ColorApp'
 import DrinkListChl3 from './DrinkListChl3'
 import Gallery from './Gallery'
 import Gallery05 from './Gallery05'
+import LightSwitch from './LightSwitch'
 import ListChl1 from './ListChl1'
 import PackingList from './PackingList'
 import PackingListChl2 from './PackingListChl2'
@@ -107,6 +109,16 @@ function App() {
     <div>
       <h1>Branch 9: Your UI as a Tree </h1>
       <Tree />
+    </div>
+
+    {/* Branch 10 */}
+    <div>
+      <h1>Branch 10: Responding to Events </h1>
+      <h2>Challenge 1: Fix an event handler </h2>
+      <LightSwitch />
+
+      <h2>Challenge 2: Wire up the events </h2>
+      <ColorApp />
     </div>
 
            
