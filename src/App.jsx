@@ -5,8 +5,12 @@ import Bio from './Bio'
 import Clock from './Clock'
 import ColorApp from './ColorApp'
 import DrinkListChl3 from './DrinkListChl3'
+import FeedbackForm from './FeedbackForm'
+import FeedbackFormCh4 from './FeedbackFormCh4'
+import Form from './Form'
 import Gallery from './Gallery'
 import Gallery05 from './Gallery05'
+import Gallery11 from './Gallery11'
 import LightSwitch from './LightSwitch'
 import ListChl1 from './ListChl1'
 import PackingList from './PackingList'
@@ -119,6 +123,22 @@ function App() {
 
       <h2>Challenge 2: Wire up the events </h2>
       <ColorApp />
+    </div>
+
+    {/* Branch 11 */}
+    <div>
+      <h1>Branch 11: State: A Component’s Memory </h1>
+      <h2>Challenge 1: Complete the gallery </h2>
+      <Gallery11 />
+
+      <h2>Challenge 2: Fix stuck form inputs </h2>
+      <Form />
+
+      <h2>Challenge 3: Fix a crash </h2>
+      <FeedbackForm />
+
+      <h2>Challenge 4: Remove unnecessary state </h2>
+      <FeedbackFormCh4 />
     </div>
 
            
