@@ -7,6 +7,8 @@ import List from './List'
 import PackingList from './PackingList'
 import TeaSet from './TeaSet'
 import TodoList from './TodoList'
+import TodoListChl2 from './TodoListChl2'
+import TodoListChl3 from './TodoListChl3'
 
 import FancyText from './FancyText';
 import InspirationGenerator from './InspirationGenerator';
@@ -40,7 +42,12 @@ function App() {
     {/* Branch-4 */}
     <div>
       <h1>Branch 4 JavaScript in JSX with curly braces </h1>
+      <h2>Challange 1: Fix the code crashes </h2>
       <TodoList />
+      <h2>Challange 2: Extract information into an object</h2>
+      <TodoListChl2 />
+      <h2>Challange 3: Write an expression inside JSX curly braces</h2>
+      <TodoListChl3 />
     </div>
 
     {/* Branch-5 */}
